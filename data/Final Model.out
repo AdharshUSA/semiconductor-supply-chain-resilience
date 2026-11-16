@@ -1,0 +1,160 @@
+
+                                      ARENA Simulation Results
+                               rajasek4@purdue.edu - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/25/2025
+Analyst: VALENTINA AGUIRRE                                           Model revision date:11/25/2025
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Time in system design legacy nodes          441.71     (Insuf)    63.800     754.60         36    
+time in system design advanced nodes        356.40     (Insuf)    101.41     740.80         15    
+Time in system fabrication legacy nodes     290.62     (Insuf)    30.454     371.03         22    
+Time in system fabrication advanced nodes   274.72     (Insuf)    114.16     388.51         12    
+Time Taken in ATP legacy nodes              30.419     (Insuf)    15.516     58.275         21    
+Time Taken in ATP advanced nodes            25.238     (Insuf)    10.094     43.784         12    
+Total time in system legacy nodes           622.14     (Insuf)    112.34     856.37         21    
+Total time in system advanced nodes         569.46     (Insuf)    236.33     859.37         12    
+Queue 1.WaitingTime                         .00000     (Insuf)    .00000     .00000        150    
+Queue 2.WaitingTime                         .00000     (Insuf)    .00000     .00000        110    
+Queue 3.WaitingTime                         1.1626     (Insuf)    .00000     20.267         40    
+Queue 4.WaitingTime                         248.68     (Insuf)    .00000     532.63        116    
+Queue 5.WaitingTime                         160.48     (Insuf)    .00000     311.37         78    
+Queue 6.WaitingTime                         158.19     (Insuf)    .00000     302.32         52    
+Queue 7.WaitingTime                         237.00     (Insuf)    .00000     320.89         35    
+Queue 8.WaitingTime                         1.0864     (Insuf)    .00000     8.8412         34    
+Queue 9.WaitingTime                         2.9076     (Insuf)    .00000     19.905         34    
+Queue 10.WaitingTime                        .01715     (Insuf)    .00000     .24778         34    
+Queue 11.WaitingTime                        1.0016     (Insuf)    .00000     10.420         34    
+Queue 12.WaitingTime                        1.0669     (Insuf)    .00000     13.928         34    
+Queue 13.WaitingTime                        1.5540     (Insuf)    .00000     12.165         34    
+Queue 14.WaitingTime                        .02115     (Insuf)    .00000     .71909         34    
+Queue 15.WaitingTime                        .00000     (Insuf)    .00000     .00000         33    
+Queue 16.WaitingTime                        .10466     (Insuf)    .00000     3.4537         33    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Jobs in Queue global design                 .00000     (Insuf)    .00000     .00000     .00000    
+Jobs in queue design                        .04651     (Insuf)    .00000     3.0000     .00000    
+jobs in queue wafer prep                    74.907     (Insuf)    .00000     118.00     96.000    
+Jobs in fabrication                         10.733     (Insuf)    .00000     18.000     16.000    
+Jobs in queue in ATP                        .09329     (Insuf)    .00000     2.0000     .00000    
+jobs in system                              94.437     (Insuf)    .00000     141.00     117.00    
+Global_design.NumberBusy                    1.1893     (Insuf)    .00000     8.0000     .00000    
+Global_design.NumberScheduled               8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Global_design.Utilization                   .14867     (Insuf)    .00000     1.0000     .00000    
+Legacy_design.NumberBusy                    1.3165     (Insuf)    .00000     7.0000     .00000    
+Legacy_design.NumberScheduled               7.0000     (Insuf)    7.0000     7.0000     7.0000    
+Legacy_design.Utilization                   .18808     (Insuf)    .00000     1.0000     .00000    
+Advanced_design.NumberBusy                  .86304     (Insuf)    .00000     3.0000     .00000    
+Advanced_design.NumberScheduled             3.0000     (Insuf)    3.0000     3.0000     3.0000    
+Advanced_design.Utilization                 .28768     (Insuf)    .00000     1.0000     .00000    
+Slicing.NumberBusy                          .97992     (Insuf)    .00000     1.0000     1.0000    
+Slicing.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Slicing.Utilization                         .97992     (Insuf)    .00000     1.0000     1.0000    
+Polish.NumberBusy                           .97151     (Insuf)    .00000     1.0000     1.0000    
+Polish.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Polish.Utilization                          .97151     (Insuf)    .00000     1.0000     1.0000    
+Wet_bench.NumberBusy                        .95838     (Insuf)    .00000     1.0000     1.0000    
+Wet_bench.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Wet_bench.Utilization                       .95838     (Insuf)    .00000     1.0000     1.0000    
+Oxi_Tool.NumberBusy                         .92062     (Insuf)    .00000     1.0000     1.0000    
+Oxi_Tool.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Oxi_Tool.Utilization                        .92062     (Insuf)    .00000     1.0000     1.0000    
+Litho_Tool.NumberBusy                       .17363     (Insuf)    .00000     1.0000     .00000    
+Litho_Tool.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Litho_Tool.Utilization                      .17363     (Insuf)    .00000     1.0000     .00000    
+Etch_Tool.NumberBusy                        .23562     (Insuf)    .00000     1.0000     .00000    
+Etch_Tool.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Etch_Tool.Utilization                       .23562     (Insuf)    .00000     1.0000     .00000    
+Implant_Tool.NumberBusy                     .04548     (Insuf)    .00000     1.0000     .00000    
+Implant_Tool.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Implant_Tool.Utilization                    .04548     (Insuf)    .00000     1.0000     .00000    
+Depo_Tool.NumberBusy                        .15194     (Insuf)    .00000     1.0000     .00000    
+Depo_Tool.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Depo_Tool.Utilization                       .15194     (Insuf)    .00000     1.0000     .00000    
+Dicing Zone.NumberBusy                      .18524     (Insuf)    .00000     1.0000     .00000    
+Dicing Zone.NumberScheduled                 1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Dicing Zone.Utilization                     .18524     (Insuf)    .00000     1.0000     .00000    
+Die Attaching Zone.NumberBusy               .21354     (Insuf)    .00000     1.0000     .00000    
+Die Attaching Zone.NumberScheduled          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Die Attaching Zone.Utilization              .21354     (Insuf)    .00000     1.0000     .00000    
+Bonding Zone.NumberBusy                     .19756     (Insuf)    .00000     2.0000     1.0000    
+Bonding Zone.NumberScheduled                2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Bonding Zone.Utilization                    .09878     (Insuf)    .00000     1.0000     .50000    
+Assembly Inspection Zone.NumberBusy         .11369     (Insuf)    .00000     2.0000     .00000    
+Assembly Inspection Zone.NumberScheduled    2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Assembly Inspection Zone.Utilization        .05684     (Insuf)    .00000     1.0000     .00000    
+Packaging Zone.NumberBusy                   .14071     (Insuf)    .00000     2.0000     .00000    
+Packaging Zone.NumberScheduled              2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Packaging Zone.Utilization                  .07036     (Insuf)    .00000     1.0000     .00000    
+Queue 1.NumberInQueue                       .00000     (Insuf)    .00000     .00000     .00000    
+Queue 2.NumberInQueue                       .00000     (Insuf)    .00000     .00000     .00000    
+Queue 3.NumberInQueue                       .04651     (Insuf)    .00000     3.0000     .00000    
+Queue 4.NumberInQueue                       44.409     (Insuf)    .00000     81.000     34.000    
+Queue 5.NumberInQueue                       18.369     (Insuf)    .00000     37.000     37.000    
+Queue 6.NumberInQueue                       12.127     (Insuf)    .00000     25.000     25.000    
+Queue 7.NumberInQueue                       10.562     (Insuf)    .00000     18.000     16.000    
+Queue 8.NumberInQueue                       .03694     (Insuf)    .00000     3.0000     .00000    
+Queue 9.NumberInQueue                       .09886     (Insuf)    .00000     3.0000     .00000    
+Queue 10.NumberInQueue                       5.8307E-4 (Insuf)    .00000     1.0000     .00000    
+Queue 11.NumberInQueue                      .03406     (Insuf)    .00000     2.0000     .00000    
+Queue 12.NumberInQueue                      .03628     (Insuf)    .00000     2.0000     .00000    
+Queue 13.NumberInQueue                      .05284     (Insuf)    .00000     2.0000     .00000    
+Queue 14.NumberInQueue                       7.1909E-4 (Insuf)    .00000     1.0000     .00000    
+Queue 15.NumberInQueue                      .00000     (Insuf)    .00000     .00000     .00000    
+Queue 16.NumberInQueue                      .00345     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Global_design.NumberSeized                  150.00    
+Global_design.ScheduledUtilization          .14867    
+Legacy_design.NumberSeized                  110.00    
+Legacy_design.ScheduledUtilization          .18808    
+Advanced_design.NumberSeized                40.000    
+Advanced_design.ScheduledUtilization        .28768    
+Slicing.NumberSeized                        116.00    
+Slicing.ScheduledUtilization                .97992    
+Polish.NumberSeized                         78.000    
+Polish.ScheduledUtilization                 .97151    
+Wet_bench.NumberSeized                      52.000    
+Wet_bench.ScheduledUtilization              .95838    
+Oxi_Tool.NumberSeized                       35.000    
+Oxi_Tool.ScheduledUtilization               .92062    
+Litho_Tool.NumberSeized                     34.000    
+Litho_Tool.ScheduledUtilization             .17363    
+Etch_Tool.NumberSeized                      34.000    
+Etch_Tool.ScheduledUtilization              .23562    
+Implant_Tool.NumberSeized                   34.000    
+Implant_Tool.ScheduledUtilization           .04548    
+Depo_Tool.NumberSeized                      34.000    
+Depo_Tool.ScheduledUtilization              .15194    
+Dicing Zone.NumberSeized                    34.000    
+Dicing Zone.ScheduledUtilization            .18524    
+Die Attaching Zone.NumberSeized             34.000    
+Die Attaching Zone.ScheduledUtilization     .21354    
+Bonding Zone.NumberSeized                   34.000    
+Bonding Zone.ScheduledUtilization           .09878    
+Assembly Inspection Zone.NumberSeized       33.000    
+Assembly Inspection Zone.ScheduledUtilizat  .05684    
+Packaging Zone.NumberSeized                 33.000    
+Packaging Zone.ScheduledUtilization         .07036    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.00 minutes.
+Simulation run complete.
