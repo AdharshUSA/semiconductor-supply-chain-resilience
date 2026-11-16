@@ -1,5 +1,7 @@
 # Resilience Assessment of Semiconductor Supply Chains using Arena Simulation
 
+![Chips completed per scenario against the 70-chip target](images/scenario_throughput.svg)
+
 Course project for **IE 580: Systems Simulation**, Purdue University. Team of five (Group 3). Built in Arena 16.20. Team: Jaemin Park, Valentina Aguirre Garrido, Monisha Jayashankar, Diya Sen and Adharsh Rajasekar.
 
 ## Question
