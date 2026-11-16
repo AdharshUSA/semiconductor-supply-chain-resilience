@@ -77,4 +77,10 @@ While writing this README I checked the report and deck against the Arena output
 
 - Baseline figures come from a single replication, and Arena reports no confidence half widths for it.
 - Parameters are literature-based assumptions. The model has no explicit disruption events, cost or energy metrics, or geographic layouts. Those are the next extensions.
-- The Arena model files and input dataset are not in this repository yet.
+## Repository contents
+
+- `model/Final Model.doe`: the combined Arena model (design through assembly, test and packaging) behind the results above
+- `model/Design.doe`, `model/Fabrication.doe`, `model/Assembly, Testing, and Packaging.doe`: stage-level Arena models for the three subsystems
+- `data/Final Model.out`: Arena summary output for the baseline run (one replication, 1,000 hours). This is simulation output, not input data, and it is the source of the baseline figures above
+
+Open the `.doe` files in Arena (the project used 16.20). Stage and tool definitions come from the CSET ETO Chip Explorer data, which is not redistributed here.
